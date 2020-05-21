@@ -1,0 +1,25 @@
+.nav {
+    grid-area: n;
+    background-color: azure;
+    padding:20px;
+}
+.item {
+    color: seagreen;
+}
+.item a {
+    color: grey;
+    text-decoration: none;
+    outline:none;
+}
+.item a.active {
+    color: black;
+}
+.friends {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+.friend img {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+}

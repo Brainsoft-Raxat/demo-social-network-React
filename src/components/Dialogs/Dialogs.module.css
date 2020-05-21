@@ -1,0 +1,61 @@
+.dialogs {
+    display: grid;
+    grid-template-columns: 2fr 10fr;
+}
+
+.dialogsItem {
+    padding: 10px;
+}
+
+.dialogsItem .active{
+    color: gold;
+}
+
+.dialog a {
+    text-decoration: none;
+    outline: none;
+    color:slategrey;
+}
+.dialog a.active {
+    color: black;
+}
+
+.messages {
+padding: 10px;
+}
+
+.messageIn {
+    position: relative;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.messageOut {
+    position: relative;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.item{
+    border-radius: 10px ;
+    box-sizing: border-box;
+    margin: 5px;
+    padding: 3px;
+    border: 2px solid slategrey;
+}
+
+.textarea {
+    display: flex;
+    flex-direction: row;
+}
+
+.textarea textarea {
+    width: 750px;
+    outline: none;
+    resize: none;
+}
