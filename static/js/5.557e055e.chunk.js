@@ -1,0 +1,2 @@
+(this["webpackJsonpreact-raxat-1"]=this["webpackJsonpreact-raxat-1"]||[]).push([[5],{286:function(t,a,e){"use strict";e.r(a);var n=e(0),r=e.n(n);a.default=function(){return r.a.createElement("div",null,"Settings")}}}]);
+//# sourceMappingURL=5.557e055e.chunk.js.map
